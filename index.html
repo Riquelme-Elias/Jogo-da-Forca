@@ -11,29 +11,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="rodapoe-style.css">
 </head>
 
 <body>
-    <header>
+    <header class="babecalho">
         <nav><a href=""><img src="" alt=""></a></nav>
     </header>
 
-    <main>
-        <section>
-            <div>
-                <button>Começar a jogar</button>
-                <button>Adicionar nova palavra</button>
+    <main class="container">
+        <section class="tela">
+            <div class="tela_inicial">
+                <a href="#" onclick="comecarJogo()" class="tela_inicial_comecar botoes">Começar a jogar</a>
+                <a href="#" class="tela_inicial_adicionar botoes">Adicionar nova palavra</a>
             </div>
-            <div>
-
+            <div class="tela_adiciona">
+                <textarea class="tela_adiciona_area" placeholder="Digite uma palavra ou frase"></textarea>
+            </div>
+            <div class="tela_botoes_adicionar">
+                <a class="botoes">Salvar e começar</a>
+                <a href="#" class="botoes">Cancelar</a>
             </div>
         </section>
     </main>
 
     <footer>
-
+        <p class="texto-rodape" style="font-weight: bold">Conheça mais sobre o autor e entre em contado</p>
+        <a href="https://github.com/Riquelme-Elias" target="_blank"><button id="github" class="rede-social"
+                title="GitHub"></button></a>
+        <a href="https://twitter.com/RiquelmeElias5" target="_blank"><button id="twitter" class="rede-social"
+                title="Twitter"></button></a>
+        <a href="https://instagram.com/riquelme.elias.15" target="_blank"><button id="instagram" class="rede-social"
+                title="Instagram"></button></a>
+        <a href="https://www.facebook.com/riqueume.elias" target="_blank"><button id="facebook" class="rede-social"
+                title="Facebook"></button></a>
+        <p class="texto-rodape">Copryright &copy; 2022 | Riquelme Lopes</p>
     </footer>
 
 </body>
+<script src="script.js"></script>
 
 </html>
