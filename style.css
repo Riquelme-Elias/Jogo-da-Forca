@@ -1,4 +1,93 @@
+:root {
+    --fonte-padrão: 'Anek Telugu', sans-serif;
+    --azul-escuro: #0A3871;
+    --branco-cenzento: #E5E5E5;
+}
+
 body {
-    font-family: 'Anek Telugu', sans-serif;
-    background: #E5E5E5;
+    font-family: var(--fonte-padrão);
+    background: var(--branco-cenzento);
+}
+
+.container {
+    margin: 0 2rem;
+}
+
+.babecalho {
+    height: 50px;;
+}
+
+.tela {
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+}
+
+.tela_adiciona {
+    margin: 0 4rem;
+    display: none;
+}
+
+.tela_adiciona_area {
+    display: none;
+    background: transparent;
+    border-color: transparent;
+    outline: none;
+}
+
+.tela_botoes_adicionar {
+    display: none;
+}
+
+::placeholder {
+    color: #0A3871;
+  }
+
+.tela_inicial {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    border: 1px solid var(--azul-escuro);
+    border-radius: 10px;
+    height: 70px;
+    width: 210px;
+    margin: 0.5rem;
+    font-family: var(--fonte-padrão);
+}
+
+.tela_inicial_comecar {
+    background: var(--azul-escuro);
+    color: white;
+}
+
+.tela_inicial_adicionar {
+    color: black;
+}
+
+.comecar .tela{
+    display: block;
+}
+
+.comecar .tela_inicial {
+    display: none;
+}
+
+.comecar .tela_adiciona_area {
+    display: block;
+    font-size: 1.5rem;
+    color: var(--azul-escuro);
+    width: 100%;
+}
+
+.comecar .tela_adiciona {
+    display: block;
 }
