@@ -1,4 +1,4 @@
-function comecarJogo() {
-    document.body.classList.toggle("comecar");
+function adiconaPalavra() {
+    document.body.classList.toggle("adiciona");
     console.log("oi");
   }

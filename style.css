@@ -73,21 +73,21 @@ body {
     color: black;
 }
 
-.comecar .tela{
+.adiciona .tela{
     display: block;
 }
 
-.comecar .tela_inicial {
+.adiciona .tela_inicial {
     display: none;
 }
 
-.comecar .tela_adiciona_area {
+.adiciona .tela_adiciona_area {
     display: block;
     font-size: 1.5rem;
     color: var(--azul-escuro);
     width: 100%;
 }
 
-.comecar .tela_adiciona {
+.adiciona .tela_adiciona {
     display: block;
 }
