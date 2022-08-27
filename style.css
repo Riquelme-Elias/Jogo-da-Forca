@@ -2,6 +2,7 @@
     --fonte-padrão: 'Anek Telugu', sans-serif;
     --azul-escuro: #0A3871;
     --branco-cenzento: #E5E5E5;
+    min-width: 320px;
 }
 
 body {
